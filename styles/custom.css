@@ -54,6 +54,11 @@ Default Styles
 h1, h2, h3 {
 	font-family: 'Lato', sans-serif;
 }
+
+p{
+	color: white;
+}
+
 .wrapper {
 	font: 14px/23px 'Lato', sans-serif;
 }
@@ -104,84 +109,7 @@ Short Codes & Form Elements
 
 }
 
-/* ==============================================
-Top Head Styles
-=============================================== */
-.wrapper > header {
-	background-color: #F8F8F8;
-}
-.big_block {
-	padding: 30px 0;
-}
- .wrapper > header .navbar-default.sticky{
- 	background-color: #FFFFFF
-}
 
-/* ==============================================
-Bootstrap Navbar
-=============================================== */
-/*Logo modames*/
-.navbar-default a.navbar-brand {
-	color: #333333;
-	background-color: #F8F8F8;
-	font-family: 'Poiret One', sans-serif;
-	text-transform: lowercase;
-}
-/*marge Logo modames*/
-.navbar>.container-fluid .navbar-brand {
-    margin-left: 40px;
-}
-
-.navbar-default .navbar-brand:hover, .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
-	color: #333333;
-}
-.container-fluid .navbar-header{
-	margin-left: 30px;
- }
-/* Text menu header*/
-.navbar-default .navbar-nav > li > a {
-	color: #333333;
-	background: #F8F8F8;
-	text-transform: none;
-	font-weight: normal;
-}
-.navbar-default .navbar-nav > li > a:hover {
-	text-decoration: underline;
-}
-
-/* ==============================================
-For Mega Menu
-=============================================== */
-.collapse.navbar-collapse {
-	background:#FFFFFF;
-	color: #333333;
-}
-.navbar-default .navbar-nav > li > a {
-	background-color: #FFFFFF;
-}
-.navbar, .top_head {
- 	background:white;
- }
-.navbar-default .container-fluid{
- 	margin-top: 10px !important;
- }
- .navbar-right{
- 	vertical-align: center
-}
-/*Toggle Mobile*/
- .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
- 	background-color: #40B8C7;
- }
- .navbar-default .navbar-toggle{
- 	border-color: #40B8C7; 
- }
- .navbar-toggle{
- 	background-color: #40B8C7;
- 	border:1px solid #40B8C7;
- }
- .navbar-default .navbar-toggle .icon-bar{
- 	background-color: white;
- }
 
 /* ==============================================
 Banner
@@ -191,7 +119,12 @@ Banner
 }
 /*punchline slider*/
 .bann_caption h4 {
-	color: #333333
+	color: white;
+}
+.bann_caption img{
+	position: left;
+	padding-top: 0px;
+	padding-bottom: 80px;
 }
 /* ==============================================
 Description bloc
