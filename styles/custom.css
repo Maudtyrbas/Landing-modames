@@ -1,0 +1,626 @@
+/* ==============================================
+@Author: Inventive Templates
+@URL: http://inventivetemplates.com
+
+Styles contents are outlined below
+ 
+1. Default Styles
+2. Short Codes & Form Elements
+3. Top Head Styles
+4. Bootstrap Navbar
+5. For Mega Menu
+6. Banner
+7. Features
+8. Features_2 & Features_3
+9. Home_block 2 & 3
+10. Counters
+11. Services
+12. Workprocess
+13. Model Box
+14. Gallery
+15. News & Blog items
+16. Testimonials
+17. Team
+18. Subscribe
+19. Clients
+20. Contact Us
+21. Map
+22. Footer
+23. Sidebar
+24. Accordion
+25. Pricing
+26. 404
+27. Breadcrumb
+28. waypoints
+29. Buy_now
+	
+Responsive Styles
+30. Mobile and Tablet Screen
+31. Mobile Screen
+32. Tablet and Desktop Screen
+33. Tablet Screen
+34. Desktop Screen
+35. Desktop and Large Desktop Screen
+36. Large Desktop Screen
+37. Custom Screens
+	
+Animations
+38. Animations
+
+
+/* ==============================================
+Default Styles
+=============================================== */
+h1, h2, h3 {
+	font-family: 'Lato', sans-serif;
+}
+.wrapper {
+	font: 14px/23px 'Lato', sans-serif;
+}
+.style_title_modames{
+	color: #333333;
+	font-weight: normal;
+	text-align: center;
+}
+/* Order Button */
+.btn-order{
+	background: #FF8B80 !important;
+	border-radius: 2px !important;
+	border-bottom:1px solid #FF8B80 !important;
+	padding: 6px 20px !important;
+	color: white !important;
+	font-size: 1em;
+	text-align: center;
+}
+.btn-order:hover{
+	background-color:#FA7569 !important;
+	text-decoration: none !important;
+}
+.button{
+	background: #40B8C7 !important;
+	border-radius: 2px !important;
+	border-bottom:1px solid #FF8B80 !important;
+	padding: 6px 20px !important;
+	color: white !important;
+	font-size: 1em;
+	text-align: center;
+}
+.button:hover{
+	background-color:#FDC85C !important;
+}
+
+/* ==============================================
+Short Codes & Form Elements
+=============================================== */
+/*Enter your email bloc*/
+.form-group label, .table > thead > tr > th {
+	font-family: "Lato", sans-serif;
+}
+.nav-tabs, .home_block_1 .tab-content, .nav-tabs, .home_block_2 .tab-content, .nav-tabs, .home_block_3 .tab-content {
+	width: auto;
+	max-width: 100%;
+	padding-top: 35px;
+	padding-bottom: 35px;
+
+}
+
+/* ==============================================
+Top Head Styles
+=============================================== */
+.wrapper > header {
+	background-color: #F8F8F8;
+}
+.big_block {
+	padding: 30px 0;
+}
+ .wrapper > header .navbar-default.sticky{
+ 	background-color: #FFFFFF
+}
+
+/* ==============================================
+Bootstrap Navbar
+=============================================== */
+/*Logo modames*/
+.navbar-default a.navbar-brand {
+	color: #333333;
+	background-color: #F8F8F8;
+	font-family: 'Poiret One', sans-serif;
+	text-transform: lowercase;
+}
+/*marge Logo modames*/
+.navbar>.container-fluid .navbar-brand {
+    margin-left: 40px;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+	color: #333333;
+}
+.container-fluid .navbar-header{
+	margin-left: 30px;
+ }
+/* Text menu header*/
+.navbar-default .navbar-nav > li > a {
+	color: #333333;
+	background: #F8F8F8;
+	text-transform: none;
+	font-weight: normal;
+}
+.navbar-default .navbar-nav > li > a:hover {
+	text-decoration: underline;
+}
+
+/* ==============================================
+For Mega Menu
+=============================================== */
+.collapse.navbar-collapse {
+	background:#FFFFFF;
+	color: #333333;
+}
+.navbar-default .navbar-nav > li > a {
+	background-color: #FFFFFF;
+}
+.navbar, .top_head {
+ 	background:white;
+ }
+.navbar-default .container-fluid{
+ 	margin-top: 10px !important;
+ }
+ .navbar-right{
+ 	vertical-align: center
+}
+/*Toggle Mobile*/
+ .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+ 	background-color: #40B8C7;
+ }
+ .navbar-default .navbar-toggle{
+ 	border-color: #40B8C7; 
+ }
+ .navbar-toggle{
+ 	background-color: #40B8C7;
+ 	border:1px solid #40B8C7;
+ }
+ .navbar-default .navbar-toggle .icon-bar{
+ 	background-color: white;
+ }
+
+/* ==============================================
+Banner
+=============================================== */
+.slider .banner .banner_bg img {
+	animation: none;
+}
+/*punchline slider*/
+.bann_caption h4 {
+	color: #333333
+}
+/* ==============================================
+Description bloc
+=============================================== */
+.description{
+	background: #F8F8F8;
+}
+
+/* ==============================================
+Home_block 2 & 3
+=============================================== */
+/*background image blocs etapes*/
+.home_block_1 {
+	background: url(../images/modames-homeblock1.jpg);
+	background-attachment: initial;
+	background-size : 50%;
+	background-position: right;
+	font-weight: lighter;
+}
+.home_block_2 {
+	background: url(../images/modames-homeblock2.jpg);
+	background-attachment: initial;
+	background-size : 50%;
+	background-position: left;
+	font-weight: lighter;
+}
+.home_block_3 {
+	background: url(../images/modames-homeblock3.jpg);
+	background-attachment: initial;
+	background-size : 50%;
+	background-position: right;
+	font-weight: lighter;
+}
+/*background texte blocs etapes */
+.home_block_1 .container-fluid > div, .home_block_2 .container-fluid > div, .home_block_3 .container-fluid > div {
+	background: rgba(255,255,255,100);
+}
+
+/* ==============================================
+ Features
+=============================================== */
+.features{
+	border: none !important;
+	background-color:#F8F8F8;
+	padding-top: 30px;
+    padding-bottom: 60px;
+}
+.features > div > div:nth-child(1), .features > div > div:nth-child(2), .features > div > div:nth-child(3) {
+    border-bottom:none;
+}
+.features > div > div {
+    border-left:none;    
+}
+.features .icon i{
+	color: #FDC85C;
+}
+.features .block{
+	margin: 30px 0;
+}
+
+/* ==============================================
+ Testimonials
+=============================================== */
+.testimonials{
+	background: none;
+	background-color: white;
+	margin-bottom: 30px;
+}
+
+.testimonials img {
+	border-radius: 0;
+}
+.testimonials p{
+	color: #333333;
+	font-weight: lighter;
+}
+.testimonials .owl-theme .owl-controls .owl-page span {
+	border-color: initial;
+	background: #40B8C7;
+}
+.testimonials .style_title_modames{
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+/* ==============================================
+Gallery
+=============================================== */
+.gallery{
+	padding-top: 30px;
+	background-color: #F8F8F8 ;
+}
+.gallery p{
+	text-align: center;
+	font-weight: lighter;
+}
+
+.gallery .style_title_modames {
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+/* ==============================================
+Subscribe
+=============================================== */
+.subscribe {
+	background: #F8F8F8;
+	color: #333333;
+	padding: 15px 0;
+}
+.subscribe h6{
+	color:#40B8C7;
+	font-size: 20px;
+	margin-bottom: -15px;
+}
+.subscribe h5{
+	font-size: 20px;
+}
+
+.subscribe input.form-control {
+	background-color: white;
+	color: #333333;
+	border:1px
+}
+.carte-cadeau .bloc{
+	display: inline-block;
+	vertical-align: text-top;
+}
+.carte-cadeau-par{
+	max-width:230px;
+	margin-bottom: 0px;
+}
+.subscribe .icon{
+	height: 80px;
+}
+.subscribe .bloc #gift-text{
+
+}
+
+/* ==============================================
+Contact Us
+=============================================== */
+.contact {
+	background : none;
+}
+.contact_info li a, .contact_info p {
+	color: #333333;
+}
+.contact_info li {
+	color: #333333;
+}
+.contact_info h3 {
+	color: #333333;
+}
+#contact-description {
+	margin-top: 50px;
+	background-color: #f8f8f8;
+}
+.contact label {
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+.indicates-required{
+	color:#ffffff;
+}
+.contact input.form-control {
+	background: #F8F8F8;
+}
+.contact textarea.form-control {
+	background: #F8F8F8;
+}
+
+/* ==============================================
+Footer
+=============================================== */
+/*Footer size*/
+
+/*Text footer*/
+.wrapper > footer {
+	background: #FDC85C;
+	color: white;
+}
+.wrapper > footer p, .wrapper > footer a {
+	background: #FDC85C;
+	color: #333333;
+}
+.wrapper > footer p{
+	font-size: 0.8em;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+footer .social_icons a i {
+	border: none !important;
+	width: 10px;
+}
+.appear-animation {
+    opacity: 100;
+}
+.wrapper > footer a:hover {
+	text-decoration: underline;
+}
+.foot_nav.style_2 li a {
+    border: none;
+}
+.foot_nav.style_2 li{
+    line-height: 30px;
+}
+.h6, h6 {
+	font: 14px 'Lato', sans-serif;
+	color:#333333;
+}
+
+/*Footer links*/
+.foot_nav li {
+	display: block;
+}
+
+/*==============================================
+FAQ
+===============================================*/
+.faq_block{
+	display: inline;
+}
+/*==============================================
+Accordion
+===============================================*/
+.panel.panel-default{
+	border: none;
+	background-color: #F8F8F8;
+}
+.panel-group {
+	background-color: #F8F8F8;
+}
+
+/* ==============================================
+Breadcrumb
+=============================================== */
+.breadcrumb_bg {
+	overflow: hidden;
+	text-align: left;
+	color: #FFF;
+	background: #222 url(../images/modames-faq.png) top center fixed;
+	position: relative;
+	background-size: 100%;
+	padding-bottom: 40px;
+	padding-top: 40px;
+	margin-top: 40px;
+}
+
+.breadcrumb_bg h4 {
+	text-align: left;
+	margin-left: 40px;
+	color: #333333;
+}
+
+
+/*==============================================
+go-top link
+===============================================*/
+a.go-top{
+	color: #40B8C7;
+	opacity: 100;
+}
+
+
+/* ==============================================
+Mobile and Tablet Screen
+=============================================== */
+@media screen and (max-width:991px) {
+.home_block_1 .container-fluid > div, .home_block_2 .container-fluid > div, .home_block_3 .container-fluid > div{
+	text-align: center;
+}
+.navbar-collapse .navbar-nav li a{
+ 	font-size: 0.8em;
+ }
+ .navbar-collapse .navbar-nav .btn-order{
+ 	font-size: 0.8em;
+ 	width: 95%;
+ 	text-align: center;
+ }
+/*background texte blocs etapes */
+.home_block_1 .container-fluid > div, .home_block_2 .container-fluid > div, .home_block_3 .container-fluid > div {
+	background: rgba(255,255,255,.80);
+}
+.slider .banner .bann_caption{
+ 	z-index: 10;
+ 	position: absolute;
+}
+#contact-description {
+	margin-top: 0px;
+}
+}
+/* ==============================================
+Mobile Screen
+=============================================== */
+/*background texte blocs etapes */
+@media screen and (max-width:767px) {
+.home_block_1 {
+	background: url(../images/modames-homeblock1.jpg);
+	background-attachment: initial;
+	background-repeat: no-repeat;
+	background-size : 100%;
+	background-position: center;
+}
+.home_block_2 {
+	background: url(../images/modames-homeblock2.jpg);
+	background-attachment: initial;
+	background-repeat: no-repeat;
+	background-size : 100%;
+	background-position: center;
+}
+.home_block_3 {
+	background: url(../images/modames-homeblock3.jpg);
+	background-attachment: initial;
+	background-repeat: no-repeat;
+	background-size : 100%;
+	background-position: center;
+}
+.home_block_1 .big_block, .home_block_2 .big_block, .home_block_3 .big_block; {
+	background-size : auto;
+}
+.home_block_1 .container-fluid > div > div, .home_block_2 .container-fluid > div > div, .home_block_3 .container-fluid > div > div {
+	padding: 0px;
+}
+.nav-tabs, .home_block_1 .tab-content, .nav-tabs, .home_block_2 .tab-content, .nav-tabs, .home_block_3 .tab-content {
+	padding-top: 28px;
+	padding-bottom: 28px;
+}
+}
+/*Footer*/
+@media screen and (max-width:767px) {
+.wrapper > footer {
+	    text-align: -webkit-center;
+}
+footer img{
+	width: 20%;
+
+}
+}
+/* ==============================================
+Tablet and Desktop Screen
+=============================================== */
+@media screen and (min-width:768px) {
+/*Marge droite dernière élément menu */
+.navbar-default .navbar-nav > li:last-child > a {
+	padding-right: 40px;
+	margin-right: 40px;
+}
+.navbar, .top_head{
+ 	background:white;
+}
+}
+/* ==============================================
+Tablet Screen
+=============================================== */
+@media screen and (min-width:768px) and (max-width:991px) {
+.home_block_1 .container-fluid > div > div {
+	padding: 0px;
+}
+.home_block_2 .container-fluid > div > div {
+	padding: 0px;
+}
+.home_block_3 .container-fluid > div > div {
+	padding: 0px;
+}
+.home_block_1 {
+	background: url(../images/modames-homeblock1.jpg);
+	background-attachment: initial;
+	background-repeat: no-repeat;
+	background-size : 100%;
+	background-position: center;
+}
+.home_block_2 {
+	background: url(../images/modames-homeblock2.jpg);
+	background-attachment: initial;
+	background-repeat: no-repeat;
+	background-size : 100%;
+	background-position: center;
+}
+.home_block_3 {
+	background: url(../images/modames-homeblock3.jpg);
+	background-attachment: initial;
+	background-repeat: no-repeat;
+	background-size : 100%;
+}
+.home_block_1 .container-fluid > div, .home_block_2 .container-fluid > div, .home_block_3 .container-fluid > div {
+	padding-left: 100px;
+	padding-right: 100px;
+}
+/*Footer*/
+.wrapper > footer {
+	    font-size: 0.8em;
+}
+.wrapper > footer h6 {
+	font-size: 0.8em;
+}
+footer img{
+	width: 50%;
+}
+}
+/* ==============================================
+Desktop and Large Desktop Screen
+=============================================== */
+/*modification marge header*/
+@media screen and (min-width:992px) {
+.wrapper > header .container-fluid {
+	margin: 0 0px;
+}
+.wrapper > header .navbar-default {
+	top: 0px;
+}
+}
+/* ==============================================
+Desktop and Large Desktop Screen
+=============================================== */
+@media screen and (min-width:992px) {
+.wrapper > header .container-fluid {
+	margin: 0 0px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
