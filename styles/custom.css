@@ -75,6 +75,11 @@ Banner
 	animation: none;
 }
 
+.slider .banner .bann_caption, .owl-carousel .bann_caption {
+	top: 100px;
+	text-align: left
+}
+
 /*punchline slider*/
 .bann_caption h4 {
 	color: white;
@@ -83,6 +88,7 @@ Banner
 	position: left;
 	padding-top: 0px;
 	padding-bottom: 80px;
+	margin-left: 100px;
 }
 #mce-EMAIL{
 	background: none;
