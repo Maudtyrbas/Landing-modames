@@ -51,12 +51,23 @@ Animations
 /* ==============================================
 Default Styles
 =============================================== */
-h1, h2, h3 {
+h1, h2, h3, h4{
 	font-family: 'Lato', sans-serif;
 }
 
-p{
+.bann_caption h3 {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: lighter;
+    margin-bottom: 50px;
+}
+
+.bann_caption p{
+	font-family: 'Lato', sans-serif;
 	color: white;
+	font-weight: lighter;
+	margin-bottom: 20px;
+	font-size: 14px;
 }
 
 
@@ -71,8 +82,13 @@ p{
 /* ==============================================
 Banner
 =============================================== */
+.slider {
+	height: 1000px;
+}
+
 .slider .banner .banner_bg img {
 	animation: none;
+	max-width: 100%
 }
 
 .slider .banner .bann_caption, .owl-carousel .bann_caption {
@@ -90,6 +106,13 @@ Banner
 	padding-bottom: 80px;
 	margin-left: 100px;
 }
+
+.container {
+	margin-left: 100px;
+}
+
+/*Champ email*/
+
 #mce-EMAIL{
 	background: none;
 	border-color: white;
@@ -99,7 +122,27 @@ Banner
 	height: 38px;
 	line-height: 38px;
 	padding: 0 20px;
+	position: relative;
 }
+
+/*boutton*/
+
+#mc-embedded-subscribe{
+	border: none;
+	background-color: #FDC85C;
+	border-radius: 50%;
+	width: 40px;
+    height: 40px;
+    position: absolute;;
+ }
+
+ #mc-embedded-subscribe:hover{
+	border: none;
+	background-color: #40B8C7;
+	border-radius: 50%;
+	width: 40px;
+    height: 40px;
+ }
 
 /* ==============================================
 Subscribe
@@ -241,6 +284,9 @@ Mobile Screen
 }
 footer img{
 	width: 20%;
+}
+#mce-EMAIL{
+	width: 150px;
 }
 }
 /* ==============================================
