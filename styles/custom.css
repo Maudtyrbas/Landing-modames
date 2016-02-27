@@ -84,8 +84,16 @@ Banner
 	padding-top: 0px;
 	padding-bottom: 80px;
 }
-
-
+#mce-EMAIL{
+	background: none;
+	border-color: white;
+	border-radius: 20px;
+	border: 1px solid;
+	width: 200px;
+	height: 38px;
+	line-height: 38px;
+	padding: 0 20px;
+}
 
 /* ==============================================
 Subscribe
