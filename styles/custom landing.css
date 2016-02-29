@@ -104,7 +104,7 @@ Banner
 	position: left;
 	padding-top: 0px;
 	padding-bottom: 80px;
-	margin-left: 100px;
+	height: 180px;
 }
 
 .container {
@@ -118,7 +118,7 @@ Banner
 	border-color: white;
 	border-radius: 20px;
 	border: 1px solid;
-	width: 200px;
+	width: 250px;
 	height: 38px;
 	line-height: 38px;
 	padding: 0 20px;
@@ -274,7 +274,6 @@ Mobile and Tablet Screen
  	z-index: 10;
  	position: absolute;
 }
-
 }
 /* ==============================================
 Mobile Screen
@@ -292,6 +291,13 @@ footer img{
 #mce-EMAIL{
 	width: 150px;
 }
+.bann_caption img{
+	height: 130px;
+}
+.container {
+	margin-left: 0px;
+}
+
 }
 /* ==============================================
 Tablet and Desktop Screen
