@@ -84,7 +84,9 @@ h1, h2, h3, h4{
 Banner
 =============================================== */
 .slider {
-	height: 1000px;
+	height: 700px;
+	background-image: url(../images/fond-site-flou-2.jpg);
+
 }
 
 .slider .banner .banner_bg img {
