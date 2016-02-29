@@ -85,8 +85,8 @@ Banner
 =============================================== */
 .slider {
 	height: 700px;
-	background-image: url(../images/fond-site-flou-2.jpg);
-
+	background-image: url(../images/slider-landing.svg);
+	background-repeat: no-repeat;
 }
 
 .slider .banner .banner_bg img {
