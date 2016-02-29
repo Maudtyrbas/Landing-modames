@@ -277,6 +277,9 @@ Mobile and Tablet Screen
  	z-index: 10;
  	position: absolute;
 }
+.container {
+	margin-left: 0px;
+}
 }
 /* ==============================================
 Mobile Screen
