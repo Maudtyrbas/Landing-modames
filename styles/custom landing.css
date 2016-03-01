@@ -95,7 +95,9 @@ Banner
 
 .slider .banner .bann_caption, .owl-carousel .bann_caption {
 	top: 100px;
-	text-align: left
+	text-align: left;
+	position: absolute;
+	z-index: 10;
 }
 
 /*punchline slider*/
