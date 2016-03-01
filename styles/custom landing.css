@@ -88,6 +88,7 @@ Banner
 	background-repeat: no-repeat;
 	background-image: url(../images/modames-slider.png);
 	background-size: cover;
+	background-position: center;
 }
 
 .slider .banner .banner_bg img {
