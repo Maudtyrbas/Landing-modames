@@ -56,19 +56,20 @@ h1, h2, h3, h4{
 }
 
 .bann_caption h3 {
-    font-size: 30px;
+    font-size: 20px;
     line-height: 40px;
-    font-weight: 300;
-    margin-bottom: 50px;
+    font-weight: 400;
+    margin-bottom: 30px;
     font-family: 'lato', sans-serif;
+    color: white;
 }
 
 .bann_caption p{
 	font-family: 'Lato', sans-serif;
 	color: white;
-	font-weight: 200;
-	margin-bottom: 30px;
-	font-size: 16px;
+	font-weight: 300;
+	margin-bottom: 20px;
+	font-size: 1.2em;
 }
 
 
@@ -84,7 +85,7 @@ h1, h2, h3, h4{
 Banner
 =============================================== */
 .slider {
-	height: 700px;
+	height: 520px;
 	background-repeat: no-repeat;
 	background-image: url(../images/modames-slider.png);
 	background-size: cover;
@@ -94,6 +95,9 @@ Banner
 .slider .banner .banner_bg img {
 	animation: none;
 	background: top center fixed;
+	width: 60%;
+	margin-top:-110px;
+	margin-bottom: -70px;
 }
 
 .slider .banner .bann_caption, .owl-carousel .bann_caption {
@@ -106,13 +110,6 @@ Banner
 /*punchline slider*/
 .bann_caption h4 {
 	color: white;
-}
-
-.bann_caption img{
-	position: left;
-	padding-top: 0px;
-	padding-bottom: 80px;
-	height: 180px;
 }
 
 
@@ -228,7 +225,9 @@ Contact Us
 Footer
 =============================================== */
 /*Footer size*/
-
+img{
+	width: 40%;
+}
 /*Text footer*/
 .wrapper > footer {
 	background: #FDC85C;
@@ -262,13 +261,16 @@ footer .social_icons a i {
 .h6, h6 {
 	font: 14px 'Lato', sans-serif;
 	color:#333333;
+	margin-bottom: -10px;
 }
 
 /*Footer links*/
 .foot_nav li {
 	display: block;
 }
-
+.big_block{
+	padding: 40px 0;
+}
 
 /* ==============================================
 Mobile and Tablet Screen
