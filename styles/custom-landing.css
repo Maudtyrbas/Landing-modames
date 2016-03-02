@@ -119,6 +119,7 @@ Banner
 	margin-top: 20px;
 	font-size: 1em;
 	font-weight: 700;
+	width: 450px;
 }
 
 /*Mail to*/
@@ -288,6 +289,10 @@ footer .social_icons a i {
 	padding: 40px 0;
 }
 
+.mailto a:hover{
+	color: white !important;
+}
+
 /* ==============================================
 Mobile and Tablet Screen
 =============================================== */
@@ -311,6 +316,9 @@ Mobile Screen
 
 @media screen and (max-width:767px) {
 
+.bann_caption .brand{
+	width: 320px;
+}
 /*Footer*/
 .wrapper > footer {
 	    text-align: -webkit-center;
