@@ -127,10 +127,12 @@ Banner
 	margin: 0;
 	font-size: 1em;
 	color: white;
+	text-decoration: underline;
 }
 
 .bann_caption a:hover{
-	text-decoration: underline;
+	color: #FF8B80;
+	text-decoration: none;
 }	
 
 /*Champ email*/
