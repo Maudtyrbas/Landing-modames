@@ -3,7 +3,7 @@
 @URL: http://inventivetemplates.com
 
 Styles contents are outlined below
- 
+
 1. Default Styles
 2. Short Codes & Form Elements
 3. Top Head Styles
@@ -33,7 +33,7 @@ Styles contents are outlined below
 27. Breadcrumb
 28. waypoints
 29. Buy_now
-	
+
 Responsive Styles
 30. Mobile and Tablet Screen
 31. Mobile Screen
@@ -43,7 +43,7 @@ Responsive Styles
 35. Desktop and Large Desktop Screen
 36. Large Desktop Screen
 37. Custom Screens
-	
+
 Animations
 38. Animations
 
@@ -66,6 +66,7 @@ h1, h2, h3, h4{
     margin-bottom: 30px;
     font-family: 'lato', sans-serif;
     color: white;
+    width: 120%;
 }
 
 .bann_caption p{
@@ -90,7 +91,7 @@ Banner
 .slider {
 	height: 550px;
 	background-repeat: no-repeat;
-	background-image: url(../images/modames-slider.png);
+	background-image: url(../images/slider-landing.jpg);
 	background-size: cover;
 	background-position: center;
 }
@@ -137,7 +138,7 @@ Banner
 .bann_caption a:hover{
 	color: #FF8B80;
 	text-decoration: none;
-}	
+}
 
 /*Champ email*/
 
@@ -341,6 +342,12 @@ footer img{
 .container {
 	margin-left: 0px;
 }
+.slider{
+	height: 650px !important;
+}
+.bann_caption .brand{
+	width: 250px !important;
+}
 
 }
 /* ==============================================
@@ -379,14 +386,3 @@ Desktop and Large Desktop Screen
 @media screen and (min-width:992px) {
 
 }
-
-
-
-
-
-
-
-
-
-
-
