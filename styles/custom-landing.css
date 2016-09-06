@@ -61,21 +61,23 @@ h1, h2, h3, h4{
 
 .bann_caption h3 {
     font-size: 20px;
-    line-height: 40px;
+    line-height: 50px;
     font-weight: 400;
     margin-bottom: 30px;
     font-family: 'lato', sans-serif;
     color: white;
-    width: 120%;
+    width: 100%;
+
 }
 
 .bann_caption p{
 	font-family: 'Lato', sans-serif;
 	color: white;
 	font-weight: 300;
+  line-height: 30px;
 	margin-bottom: 20px;
 	font-size: 1.2em;
-	text-shadow: 0em 0em 1em #333333;
+	text-shadow: 0em 0em 3em #333333;
 }
 
 
@@ -91,7 +93,7 @@ Banner
 .slider {
 	height: 550px;
 	background-repeat: no-repeat;
-	background-image: url(../images/slider-landing.jpg);
+	background-image: url(../images/modames-slider-chemise.png);
 	background-size: cover;
 	background-position: center;
 }
