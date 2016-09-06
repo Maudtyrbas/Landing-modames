@@ -91,7 +91,7 @@ h1, h2, h3, h4{
 Banner
 =============================================== */
 .slider {
-	height: 550px;
+	height: 600px;
 	background-repeat: no-repeat;
 	background-image: url(../images/modames-slider-shirt.png);
 	background-size: cover;
@@ -109,7 +109,6 @@ Banner
 .slider .banner .bann_caption, .owl-carousel .bann_caption {
 	top: 100px;
 	text-align: left;
-	height: 700px;
 
 }
 
@@ -311,10 +310,7 @@ Mobile and Tablet Screen
  	z-index: 10;
  	position: absolute;
 }
-.slider .banner .bann_caption{
- 	z-index: 10;
- 	position: absolute;
-}
+
 .container {
 	margin-left: 0px;
 }
@@ -324,6 +320,11 @@ Mobile Screen
 =============================================== */
 
 @media screen and (max-width:767px) {
+
+/*Img background*/
+.slider{
+    height: 700px;
+}
 
 .bann_caption .brand{
 	width: 320px;
@@ -344,9 +345,7 @@ footer img{
 .container {
 	margin-left: 0px;
 }
-.slider{
-	height: 700px !important;
-}
+
 .bann_caption .brand{
 	width: 250px !important;
 }
@@ -362,8 +361,9 @@ Tablet and Desktop Screen
 Tablet Screen
 =============================================== */
 @media screen and (min-width:768px) and (max-width:991px) {
-
-
+  .slider{
+    height: 600px !important;
+  }
 /*Footer*/
 .wrapper > footer {
 	    font-size: 0.8em;
@@ -374,13 +374,6 @@ Tablet Screen
 footer img{
 	width: 50%;
 }
-
-/* ==============================================
-Desktop and Large Desktop Screen
-=============================================== */
-/*modification marge header*/
-@media screen and (min-width:992px) {
-
 }
 /* ==============================================
 Desktop and Large Desktop Screen
