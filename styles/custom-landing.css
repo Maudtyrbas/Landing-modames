@@ -75,7 +75,7 @@ h1, h2, h3, h4{
 	color: white;
 	font-weight: 300;
   line-height: 30px;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	font-size: 1.2em;
 	text-shadow: 0em 0em 3em #333333;
 }
@@ -318,7 +318,7 @@ Mobile and Tablet Screen
 .container {
 	margin-left: 0px;
 }
-}
+
 /* ==============================================
 Mobile Screen
 =============================================== */
@@ -374,7 +374,7 @@ Tablet Screen
 footer img{
 	width: 50%;
 }
-}
+
 /* ==============================================
 Desktop and Large Desktop Screen
 =============================================== */
