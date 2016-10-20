@@ -1,152 +1,185 @@
-/* ==============================================
-@Author: Inventive Templates
-@URL: http://inventivetemplates.com
-
-Styles contents are outlined below
-
-1. Default Styles
-2. Short Codes & Form Elements
-3. Top Head Styles
-4. Bootstrap Navbar
-5. For Mega Menu
-6. Banner
-7. Features
-8. Features_2 & Features_3
-9. Home_block 2 & 3
-10. Counters
-11. Services
-12. Workprocess
-13. Model Box
-14. Gallery
-15. News & Blog items
-16. Testimonials
-17. Team
-18. Subscribe
-19. Clients
-20. Contact Us
-21. Map
-22. Footer
-23. Sidebar
-24. Accordion
-25. Pricing
-26. 404
-27. Breadcrumb
-28. waypoints
-29. Buy_now
-
-Responsive Styles
-30. Mobile and Tablet Screen
-31. Mobile Screen
-32. Tablet and Desktop Screen
-33. Tablet Screen
-34. Desktop Screen
-35. Desktop and Large Desktop Screen
-36. Large Desktop Screen
-37. Custom Screens
-
-Animations
-38. Animations
-
 
 /* ==============================================
 Default Styles
 =============================================== */
-::selection {
-    background: #FDC85C;
-}
-
-h1, h2, h3, h4{
-	font-family: 'Lato', sans-serif;
-}
-
-.bann_caption h3 {
-    font-size: 20px;
-    line-height: 50px;
-    font-weight: 400;
-    margin-bottom: 30px;
-    font-family: 'lato', sans-serif;
-    color: white;
-    width: 100%;
-
-}
-
-.bann_caption p{
-	font-family: 'Lato', sans-serif;
-	color: white;
-	font-weight: 300;
-  line-height: 30px;
-	margin-bottom: 10px;
-	font-size: 1.2em;
-	text-shadow: 0em 0em 3em #333333;
-}
-
-
-.style_title_modames{
+/*Title 1*/
+p.number-one{
+	font-family: 'Poiret One', sans-serif;
+	font-size: 2em;
 	color: #333333;
-	font-weight: normal;
-	text-align: center;
+	text-transform: uppercase;
 }
+
+p#number-two-white.number-two-slider{
+	color: white;
+}
+/*Secondary and tertiary title slider */
+p.number-two-slider{
+	font-family: 'Lato', sans-serif;
+	font-size: 2em;
+	font-weight: 400;
+	color: #333333;
+}
+p.number-three-slider{
+	font-size: 1em;
+	font-weight: 400;
+	font-family: 'Lato', sans-serif;
+	color: rgb(194,194,194);
+  margin-top: 30px;
+}
+
+/* ==============================================
+Top Head Styles
+=============================================== */
+.wrapper > header {
+	background-color: #FFFFFF;
+}
+ .wrapper > header .navbar-default.sticky{
+ 	background-color: #FFFFFF;
+}
+
+/* ==============================================
+Bootstrap Navbar
+=============================================== */
+/*Background of navbar-default/menu*/
+.navbar-default{
+	background-color: white;
+	box-shadow: 0 0.3px 6px rgba(0,0,0,0.1);
+}
+nav.navbar.navbar-default{
+	background-color: #FFFFFF;
+	box-shadow: 0 0.3px 6px rgba(0,0,0,0.1);
+}
+
+/*Logo modames*/
+/*marge Logo modames*/
+.navbar-brand>img{
+	width: 100%;
+}
+.navbar>.container-fluid .navbar-brand {
+    margin-left: 0px;
+		padding: 4px 0px 0px 0px;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+	color: #333333;
+}
+.container-fluid .navbar-header{
+	margin-left: 30px;
+ }
+/* Text menu header*/
+.navbar-default .navbar-nav > li > a {
+	color: #333333;
+	text-transform: uppercase;;
+	font-size: 0.8em;
+	padding-right: 0;
+	font-weight: 300;
+	font-family: 'Lato', sans-serif;
+}
+.navbar-default .navbar-nav > li > a:hover {
+	text-decoration: underline;
+}
+
+
+
+.navbar-nav {
+	box-shadow: 0 0.3px 6px rgba(0,0,0,0.1);
+}
+.navbar-right {
+	box-shadow: none;
+}
+.wrapper > header .navbar-default.sticky {
+	box-shadow: 0 0.3px 6px rgba(0,0,0,0.1);
+}
+
+/* ==============================================
+For Mega Menu
+=============================================== */
+.collapse.navbar-collapse {
+	color: #333333;
+}
+
+.navbar-default .container-fluid{
+ 	margin-top: 10px !important;
+ }
+/*Toggle Mobile*/
+ .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+ 	background-color: #333333;
+	border-color: #333333;
+ }
+ .navbar-default .navbar-toggle{
+ 	border-color: #none;
+ }
+ .navbar-toggle{
+ 	background-color: #a6a6a6;
+ 	border:1px solid #333333;
+ }
+ .navbar-default .navbar-toggle .icon-bar{
+ 	background-color: white;
+ }
+ .wrapper > header .navbar-default {
+     top: 0px;
+ }
 
 /* ==============================================
 Banner
 =============================================== */
-.slider {
-	height: 600px;
-	background-repeat: no-repeat;
-	background-image: url(../images/modames-slider-shirt.jpeg);
-	background-size: cover;
+/* whitebox slider*/
+div.whitebox{
+	box-shadow: 11px 7px 56px 8px rgba(161,161,161,0.32);
+	width: 448px;
+  height: 330px;
+	margin: auto;
+  background-color: #FFFFFF;
+  top: 22%;
+  z-index: 1000;
+}
+
+div.baseline p{
+	width: 100%;
+	padding-top: 30px;
+}
+.line-seperate{
+		position: relative;
+    width: 20%;
+    border-top: 1px solid #333333;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+div.mission p{
+	font-size: 1.5em;
+	font-weight: 400;
+	width: 80%;
+	margin: auto;
+  margin-top: 30px;
+	line-height: auto;
+}
+
+
+section.slider{
+	background-image: url("../images/test-slider.jpg");
+	max-height: 640px;
 	background-position: center;
+	background-size: cover;
 }
 
-.slider .banner .banner_bg img {
-	animation: none;
-	background: top center fixed;
-	width: 60%;
-	margin-top:-110px;
-	margin-bottom: -70px;
+.whitebox button{
+	margin-top:40px;
 }
 
-.slider .banner .bann_caption, .owl-carousel .bann_caption {
-	top: 100px;
-	text-align: left;
-
+/*SUSCRIBE*/
+/*Email group*/
+#mc_embed_signup_scroll{
+  margin-left: -70px;
+  margin-top: 30px;
 }
-
-/*punchline slider*/
-.bann_caption h4 {
-	color: white;
-}
-
-
-.container {
-	margin-left: 80px;
-}
-.bann_caption .brand{
-	margin-top: 20px;
-	font-size: 1em;
-	font-weight: 700;
-	width: 450px;
-}
-
-/*Mail to*/
-.bann_caption a{
-	margin: 0;
-	font-size: 1em;
-	color: white;
-	text-decoration: underline;
-}
-
-.bann_caption a:hover{
-	color: #FF8B80;
-	text-decoration: none;
-}
-
-/*Champ email*/
+/* email box*/
 
 #mce-EMAIL{
-	background: none;
-	border-color: white !important;
-	border-radius: 4px;
+  color: #333333;
+  background: none;
+	border-color: #ff8b80 !important;
+	border-radius: 100px;
 	border: 1px solid;
 	width: 250px;
 	height: 40px;
@@ -155,97 +188,54 @@ Banner
 	position: relative;
 }
 
-/*boutton*/
+/*button*/
 
 #mc-embedded-subscribe{
 	border: none;
 	margin-left: 20px;
-	background-color: #FDC85C;
-	border-radius: 4px;
+	background-color: #ff8b80;
+	border-radius: 100px;
 	width: 55px;
-    height: 40px;
-    position: absolute;
-    color: white;
+  height: 40px;
+  position: absolute;
+  color: white;
  }
 
  #mc-embedded-subscribe:hover{
 	border: none;
-	background-color: #40B8C7;
-	border-radius: 4px;
+	background-color: #ff7366;
+	border-radius: 100px;
 
  }
 
-/* ==============================================
-Subscribe
-=============================================== */
-.subscribe {
-	background: #F8F8F8;
-	color: #333333;
-	padding: 15px 0;
+ /* ==============================================
+ Scrolling
+ =============================================== */
+ section.scroll-partner{
+   text-align: center;
+ }
+ i.fa.fa-caret-down{
+ 	font-size: 3em;
+ }
+ /* ==============================================
+ Partner
+ =============================================== */
+p.brand{
+  text-align: center;
+  font-weight: 300;
+  font-size: 1.2em;
+  color: #333333;
+  font-family: 'Lato', sans-serif;
+  margin:50px auto 70px auto;
 }
-.subscribe h6{
-	color:#40B8C7;
-	font-size: 20px;
-	margin-bottom: -15px;
+a.contact-partner{
+  text-decoration: underline;
+  color: #ff8b80;
 }
-.subscribe h5{
-	font-size: 20px;
+a:hover.contact-partner{
+  text-decoration: underline;
+  color: #ff7366;
 }
-
-.subscribe input.form-control {
-	background-color: white;
-	color: #333333;
-	border:1px
-}
-.carte-cadeau .bloc{
-	display: inline-block;
-	vertical-align: text-top;
-}
-.carte-cadeau-par{
-	max-width:230px;
-	margin-bottom: 0px;
-}
-.subscribe .icon{
-	height: 80px;
-}
-.subscribe .bloc #gift-text{
-
-}
-
-/* ==============================================
-Contact Us
-=============================================== */
-.contact {
-	background : none;
-}
-.contact_info li a, .contact_info p {
-	color: #333333;
-}
-.contact_info li {
-	color: #333333;
-}
-.contact_info h3 {
-	color: #333333;
-}
-#contact-description {
-	margin-top: 50px;
-	background-color: #f8f8f8;
-}
-.contact label {
-	font-size: 18px;
-	text-transform: uppercase;
-	color: #FFFFFF;
-}
-.indicates-required{
-	color:#ffffff;
-}
-.contact input.form-control {
-	background: #F8F8F8;
-}
-.contact textarea.form-control {
-	background: #F8F8F8;
-}
-
 /* ==============================================
 Footer
 =============================================== */
@@ -306,13 +296,7 @@ Mobile and Tablet Screen
 =============================================== */
 @media screen and (max-width:991px) {
 
-.slider .banner .bann_caption{
- 	z-index: 10;
- 	position: absolute;
-}
 
-.container {
-	margin-left: 0px;
 }
 
 /* ==============================================
@@ -321,13 +305,33 @@ Mobile Screen
 
 @media screen and (max-width:767px) {
 
-/*Img background*/
+/*Slider*/
 .slider{
-    height: 700px;
+	height: 420px !important;
+}
+div.whitebox{
+	width: 300px;
+	height: 300px !important;
+	position:relative;
+	margin: auto;
+	padding: none;
+	left: 0%;
+}
+div.baseline p{
+	font-size: 1.5em;
 }
 
-.bann_caption .brand{
-	width: 320px;
+div.mission p{
+	font-size: 1.2em;
+}
+div.sub-mission p{
+	font-size: 1em;
+  width: 80%;
+  margin: 20px auto;
+}
+/*Partner*/
+p.brand{
+  width: 80%;
 }
 /*Footer*/
 .wrapper > footer {
@@ -339,16 +343,7 @@ footer img{
 #mce-EMAIL{
 	width: 150px;
 }
-.bann_caption img{
-	height: 130px;
-}
-.container {
-	margin-left: 0px;
-}
 
-.bann_caption .brand{
-	width: 250px !important;
-}
 
 }
 /* ==============================================
@@ -361,9 +356,20 @@ Tablet and Desktop Screen
 Tablet Screen
 =============================================== */
 @media screen and (min-width:768px) and (max-width:991px) {
-  .slider{
-    height: 600px !important;
-  }
+.navbar .navbar-default{
+	background: none !important;
+}
+.navbar-collapse .navbar-nav li a{
+ 	font-size: 0.8em;
+ }
+ .bann_caption {
+ 	margin-top: none!important;
+ }
+
+ /*=== HOME PAGE ===*/
+ .slider{
+ 	height: 500px;
+ }
 /*Footer*/
 .wrapper > footer {
 	    font-size: 0.8em;
@@ -379,5 +385,7 @@ footer img{
 Desktop and Large Desktop Screen
 =============================================== */
 @media screen and (min-width:992px) {
-
+section.slider{
+height: 640px !important;
+}
 }
