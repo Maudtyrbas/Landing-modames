@@ -70,7 +70,7 @@ nav.navbar.navbar-default{
 /* Text menu header*/
 .navbar-default .navbar-nav > li > a {
 	color: #333333;
-	text-transform: uppercase;;
+	text-transform: lowercase;
 	font-size: 0.8em;
 	padding-right: 0;
 	font-weight: 300;
