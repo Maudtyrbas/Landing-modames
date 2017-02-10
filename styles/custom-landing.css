@@ -225,7 +225,7 @@ section.slider{
 	text-align: center;
 	margin: 80px auto 80px auto;
  }
- .mission-statement{
+ p.mission-statement{
  	color: #333333;
  	font-weight: 300;
  	font-family: 'Lato', sans-serif;
@@ -358,10 +358,10 @@ section.container-fluid.mission {
  text-align: center;
  margin: 80px auto 80px auto;
 }
-.mission-statement{
-	line-height: 30px;
-	margin: auto;
-	width: 70%;
+p.mission-statement{
+	line-height: 30px !important;
+	margin: auto !important;
+	width: 70%!important;
 }
 /*Partner*/
 p.brand{
